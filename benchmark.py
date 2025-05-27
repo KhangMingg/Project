@@ -12,7 +12,7 @@ while True:
         print("Bigger than 500 expected, please try again!")
 
 def count():
-    for i in range(1, num):
+    for i in range(1, num+1):
         print(i)
         
 if __name__ == "__main__":
