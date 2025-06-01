@@ -1,4 +1,6 @@
 n = int(input())
-so_bi_chia = n * "1"
-ans = int(so_bi_chia) % 998244353
-print(ans)[]
+mod = 998244353
+ans = 0
+for _ in range(n):
+    ans = (ans * 10 + 1) % mod
+print(ans)
